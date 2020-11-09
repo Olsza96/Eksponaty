@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Objects class">
+      <UniqueIdentifier>{f758ce46-40cc-45bf-b3c3-603c71b53169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Objects class\Pismo">
+      <UniqueIdentifier>{b052f894-6942-4fa0-adb9-de1f7a78ac79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Objects class\Sztuka">
+      <UniqueIdentifier>{6f2fe90c-0215-423d-846a-bb029a070ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Object class">
+      <UniqueIdentifier>{68eb3bb7-ec5d-4ce4-b2bf-35dc30b8bd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Object class\Sztuka">
+      <UniqueIdentifier>{58410865-c798-48d8-b2d5-608903d34334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Object class\Pismo">
+      <UniqueIdentifier>{4e7a09d9-a702-48ca-a445-bed543280adf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Lista.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Mebel.cpp">
+      <Filter>Pliki źródłowe\Object class\Sztuka</Filter>
+    </ClCompile>
+    <ClCompile Include="Obraz.cpp">
+      <Filter>Pliki źródłowe\Object class\Sztuka</Filter>
+    </ClCompile>
+    <ClCompile Include="Rzezba.cpp">
+      <Filter>Pliki źródłowe\Object class\Sztuka</Filter>
+    </ClCompile>
+    <ClCompile Include="Rekopis.cpp">
+      <Filter>Pliki źródłowe\Object class\Pismo</Filter>
+    </ClCompile>
+    <ClCompile Include="Starodruk.cpp">
+      <Filter>Pliki źródłowe\Object class\Pismo</Filter>
+    </ClCompile>
+    <ClCompile Include="PrzedmiotUzytkowy.cpp">
+      <Filter>Pliki źródłowe\Object class</Filter>
+    </ClCompile>
+    <ClCompile Include="File_manager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lista.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Obraz.h">
+      <Filter>Pliki nagłówkowe\Objects class\Sztuka</Filter>
+    </ClInclude>
+    <ClInclude Include="Rzezba.h">
+      <Filter>Pliki nagłówkowe\Objects class\Sztuka</Filter>
+    </ClInclude>
+    <ClInclude Include="Mebel.h">
+      <Filter>Pliki nagłówkowe\Objects class\Sztuka</Filter>
+    </ClInclude>
+    <ClInclude Include="Sztuka.h">
+      <Filter>Pliki nagłówkowe\Objects class\Sztuka</Filter>
+    </ClInclude>
+    <ClInclude Include="Pismo.h">
+      <Filter>Pliki nagłówkowe\Objects class\Pismo</Filter>
+    </ClInclude>
+    <ClInclude Include="Rekopis.h">
+      <Filter>Pliki nagłówkowe\Objects class\Pismo</Filter>
+    </ClInclude>
+    <ClInclude Include="Starodruk.h">
+      <Filter>Pliki nagłówkowe\Objects class\Pismo</Filter>
+    </ClInclude>
+    <ClInclude Include="PrzedmiotUzytkowy.h">
+      <Filter>Pliki nagłówkowe\Objects class</Filter>
+    </ClInclude>
+    <ClInclude Include="Eksponat.h">
+      <Filter>Pliki nagłówkowe\Objects class</Filter>
+    </ClInclude>
+    <ClInclude Include="File_manager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
